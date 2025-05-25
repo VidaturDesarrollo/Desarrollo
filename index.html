@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>DEPORTE TOTAL</title>
+   <link rel="stylesheet" href="css/style.css"> 
+</head>
+<body>
+  <section class="layout">
+    <div class="header">
+      <h1>DEPORTE TOTAL</h1>
+      <nav>
+        <a href="#">Inicio</a>
+        <a href="#">Noticias</a>
+        <a href="#">Deportes</a>
+        <a href="#">Paises</a>
+        <a href="#">Contacto</a>
+      </nav>
+    </div>
+    <div class="leftSide">      
+        <div class="menu-box">
+            <h3>Más Ligas</h3>
+            <ul class="league-menu">
+                <li><a href="#">🇬🇧 Premier League</a></li>
+                <li><a href="#">🇪🇸 LaLiga</a></li>
+                <li><a href="#">🇮🇹 Serie A</a></li>
+                <li><a href="#">🇩🇪 Bundesliga</a></li>
+                <li><a href="#">🇫🇷 Ligue 1</a></li>
+                <li><a href="#">🇺🇸 MLS</a></li>
+                <li><a href="#">🇲🇽 Liga MX</a></li>
+                <li><a href="#">🇵🇪 Liga 1 Perú</a></li>
+            </ul>
+        </div>
+
+        <div class="menu-box">
+            <h3>Más Deportes</h3>
+            <ul class="league-menu">
+                <li><img src="icons/automovilismo.png" alt="Auto" style="width: 20px; height: 20px; vertical-align: middle;"> Automovilismo</li>
+                <li><img src="icons/baloncesto.png" alt="balón" style="width: 20px; height: 20px; vertical-align: middle;">Básquetbol</li>
+                <li><img src="icons/beisbol.png" alt="Beisbol" style="width: 20px; height: 20px; vertical-align: middle;"> Béisbol</li>
+                <li><img src="icons/boxeo.png" alt="Boxeo" style="width: 20px; height: 20px; vertical-align: middle;"> Boxeo</li>
+                <li><img src="icons/golf.png" alt="Golf" style="width: 20px; height: 20px; vertical-align: middle;"> Golf</li>
+                <li><img src="icons/mma.png" alt="MMA" style="width: 20px; height: 20px; vertical-align: middle;"> MMA</li>
+                <li><img src="icons/nfl.png" alt="NFL" style="width: 20px; height: 20px; vertical-align: middle;"> NFL</li>
+            </ul>
+        </div>
+        <div class="menu-box">
+            <h3>Redes Sociales</h3>
+            <ul class="league-menu">
+                <li><img src="icons/facebook.png" alt="facebook" style="width: 20px; height: 20px; vertical-align: middle;"> Facebook</li>
+                <li><img src="icons/instagram.png" alt="instagram" style="width: 20px; height: 20px; vertical-align: middle;">Instagram</li>
+                <li><img src="icons/youtube.png" alt="youtube" style="width: 20px; height: 20px; vertical-align: middle;"> Youtube</li>
+                <li><img src="icons/twitter.png" alt="twitter" style="width: 20px; height: 20px; vertical-align: middle;"> Twitter</li>                
+            </ul>
+        </div>
+        <form class="formulario-contacto">
+            <h3>¿Tienes una sugerencia o pregunta?</h3>
+
+            <div class="form-grupo">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Tu nombre">
+            </div>
+
+            <div class="form-grupo">
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" placeholder="tucorreo@ejemplo.com">
+            </div>
+
+            <div class="form-grupo">
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="4" placeholder="Escribe aquí tu sugerencia o pregunta"></textarea>
+            </div>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+
+    <div class="body">
+      <h2>Últimas Noticias</h2>
+      <div class="container">
+        <article>
+          <img src="img/ruizdias.jpg" alt="Raúl Ruidíaz">
+          <div class="text-content">
+            <h3>Ruidíaz la volvió a 'picar' y anotó penal con Atlético Grau</h3>
+            <p>Lleva 4 goles esta temporada con el 'Patrimonio'.</p>
+          </div>
+        </article>
+        <article>
+          <img src="img/cienciano.jpg" alt="Cienciano">
+          <div class="text-content">
+            <h3>Cueva anotó a los 23 segundos con Cienciano</h3>
+            <p>Su quinto gol en la temporada, ¿se despide del Cusco?</p>
+          </div>
+        </article>
+        <article>
+          <img src="img/cristal.jpg" alt="Cristal">
+          <div class="text-content">
+            <h3>Cauteruccio busca romper mala racha con Cristal</h3>
+            <p>Llegó como goleador, pero aún tiene cuentas pendientes.</p>
+          </div>
+        </article>
+        <article>
+          <img src="img/clasico.jpg" alt="Clásico">
+          <div class="text-content">
+            <h3>Clásicos memorables entre la 'U' y Cristal</h3>
+            <p>Partidos claves en la lucha por el Apertura.</p>
+          </div>
+        </article>
+        <article>
+          <img src="img/programacion.jpg" alt="Programación">
+          <div class="text-content">
+            <h3>Fecha 14 del Apertura - Liga 1 2025</h3>
+            <p>Universitario y Cristal se enfrentan en un partidazo.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+
+    <div class="rightSide">
+        <img src="img/futbol-deporte.gif" alt="movimiento">
+        <table class="mod-data">
+            <thead>
+                <tr>
+                    <th scope="col" class="left" title="team">EQUIPO</th>
+                    <th scope="col" class="right" title="J">PJ</th>
+                    <th scope="col" class="right" title="G">O</th>
+                    <th scope="col" class="right" title="E">E</th>
+                    <th scope="col" class="right" title="P">P</th>
+                    <th scope="col" class="right" title="DIFF">DIF</th>
+                    <th scope="col" class="right" title="PTS">PTS</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="">
+                    <td>Universitario</td>
+                    <td class="right">13</td>
+                    <td class="right">8</td>
+                    <td class="right">2</td>
+                    <td class="right">3</td>
+                    <td class="right">+17</td>
+                    <td class="right">26</td>
+                </tr>
+                <tr class="">
+                    <td>Alianza Lima</td>
+                    <td class="right">13</td>
+                    <td class="right">8</td>
+                    <td class="right">2</td>
+                    <td class="right">3</td>
+                    <td class="right">+6</td>
+                    <td class="right">26</td>
+                </tr>
+                <tr class="">
+                    <td>Melgar</td>
+                    <td class="right">13</td>
+                    <td class="right">7</td>
+                    <td class="right">4</td>
+                    <td class="right">2</td>
+                    <td class="right">+8</td>
+                    <td class="right">25</td>
+                </tr>
+                <tr class="">
+                    <td>Sport Huancayo</td>
+                    <td class="right">13</td>
+                    <td class="right">8</td>
+                    <td class="right">1</td>
+                    <td class="right">4</td>
+                    <td class="right">+5</td>
+                    <td class="right">25</td>
+                </tr>
+                <tr class="">
+                    <td>Cusco FC</td>
+                    <td class="right">13</td>
+                    <td class="right">7</td>
+                    <td class="right">2</td>
+                    <td class="right">4</td>
+                    <td class="right">+7</td>
+                    <td class="right">23</td>
+                </tr>
+                <tr class="">
+                    <td>Alianza Atlético</td>
+                    <td class="right">12</td>
+                    <td class="right">7</td>
+                    <td class="right">1</td>
+                    <td class="right">4</td>
+                    <td class="right">+7</td>
+                    <td class="right">22</td>
+                </tr>
+                <tr class="">
+                    <td>Sporting Cristal</td>
+                    <td class="right">13</td>
+                    <td class="right">7</td>
+                    <td class="right">1</td>
+                    <td class="right">5</td>
+                    <td class="right">+5</td>
+                    <td class="right">22</td>
+                </tr>
+                <tr class="">
+                    <td>Deportivo Garcilaso</td>
+                    <td class="right">13</td>
+                    <td class="right">6</td>
+                    <td class="right">2</td>
+                    <td class="right">5</td>
+                    <td class="right">+6</td>
+                    <td class="right">20</td>
+                </tr>
+                <tr class="">
+                    <td>ADT</td>
+                    <td class="right">13</td>
+                    <td class="right">5</td>
+                    <td class="right">4</td>
+                    <td class="right">4</td>
+                    <td class="right">-1</td>
+                    <td class="right">19</td>
+                </tr>
+                <tr class="">
+                    <td>Cienciano del Cusco</td>
+                    <td class="right">13</td>
+                    <td class="right">4</td>
+                    <td class="right">5</td>
+                    <td class="right">4</td>
+                    <td class="right">+4</td>
+                    <td class="right">17</td>
+                </tr>
+                <tr class="">
+                    <td>Sport Boys</td>
+                    <td class="right">13</td>
+                    <td class="right">4</td>
+                    <td class="right">4</td>
+                    <td class="right">5</td>
+                    <td class="right">-1</td>
+                    <td class="right">16</td>
+                </tr>
+                <tr class="">
+                    <td>Los Chankas</td>
+                    <td class="right">12</td>
+                    <td class="right">3</td>
+                    <td class="right">6</td>
+                    <td class="right">3</td>
+                    <td class="right">0</td>
+                    <td class="right">15</td>
+                </tr>
+                <tr class="">
+                    <td>Atlético Grau</td>
+                    <td class="right">12</td>
+                    <td class="right">3</td>
+                    <td class="right">6</td>
+                    <td class="right">3</td>
+                    <td class="right">-1</td>
+                    <td class="right">15</td>
+                </tr>
+                <tr class="">
+                    <td>UTC</td>
+                    <td class="right">13</td>
+                    <td class="right">4</td>
+                    <td class="right">2</td>
+                    <td class="right">7</td>
+                    <td class="right">-15</td>
+                    <td class="right">14</td>
+                </tr>
+                <tr class="">
+                    <td>Deportivo Binacional</td>
+                    <td class="right">13</td>
+                    <td class="right">3</td>
+                    <td class="right">4</td>
+                    <td class="right">6</td>
+                    <td class="right">-8</td>
+                    <td class="right">13</td>
+                </tr>
+                <tr class="">
+                    <td>Juan Pablo II</td>
+                    <td class="right">11</td>
+                    <td class="right">3</td>
+                    <td class="right">2</td>
+                    <td class="right">6</td>
+                    <td class="right">-3</td>
+                    <td class="right">11</td>
+                </tr>
+                <tr class="">
+                    <td>Comerciantes Unidos</td>
+                    <td class="right">12</td>
+                    <td class="right">1</td>
+                    <td class="right">5</td>
+                    <td class="right">6</td>
+                    <td class="right">-9</td>
+                    <td class="right">8</td>
+                </tr>
+                <tr class="">
+                    <td>Alianza Universidad</td>
+                    <td class="right">13</td>
+                    <td class="right">1</td>
+                    <td class="right">4</td>
+                    <td class="right">8</td>
+                    <td class="right">-14</td>
+                    <td class="right">7</td>
+                </tr>
+                <tr class="">
+                    <td>Ayacucho FC</td>
+                    <td class="right">12</td>
+                    <td class="right">1</td>
+                    <td class="right">3</td>
+                    <td class="right">8</td>
+                    <td class="right">-13</td>
+                    <td class="right">6</td>
+                </tr>
+
+            </tbody>
+        </table>        
+    </div>
+
+
+    <div class="footer">
+      <footer>
+        <p>&copy; 2025 Mundo Fútbol. Todos los derechos reservados.</p>
+      </footer>
+    </div>
+  </section>
+</body>
+</html>
